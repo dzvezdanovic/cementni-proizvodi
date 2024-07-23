@@ -2175,10 +2175,11 @@ section {
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   color: #fff;
+  text-align: justify;
 }
 
 #footer .footer-top .social-links a {
