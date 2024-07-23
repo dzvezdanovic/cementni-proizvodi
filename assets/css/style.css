@@ -440,6 +440,11 @@ h6,
   text-decoration: none;
 }
 
+.home-carousel-list {
+	color: #fff;
+	list-style-type: none;
+}
+
 @media (min-width: 1024px) {
   #hero p {
     width: 60%;
