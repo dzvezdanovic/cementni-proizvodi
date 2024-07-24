@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cement/public_html/cementni-proizvodi
+    - /bin/cp -R images $DEPLOYPATH
