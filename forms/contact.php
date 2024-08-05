@@ -22,4 +22,5 @@ Subject: <input name="subject" type="text" />
 Message: <textarea name="message" rows="15" cols="40"></textarea>
 <input type="submit" value="Submit" />
 </form>
-<?php } ?>
+<?php } 
+?>

@@ -1,7 +1,0 @@
-Dodati proizvode u dropdown i href link ka svakom od njih, gde ce se nalaziti kalkulator i detaljniji tekst o samom proizvodu
-
-Dodati sertifikate (slicice i tekst)
-
-Srediti footer i kontakt
-
-Dodati slicice u galeriju (firmu, proizvode, ..)
