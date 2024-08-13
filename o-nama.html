@@ -779,10 +779,19 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
-    document.getElementById('redirectBtn').addEventListener('click', function() {
-      window.location.href = 'new-page.html'; // Replace with the URL of the new page
-    });
-  </script>
+    function calculateArea(multiplier, displayText, inputId, result) {
+      const inputNumber = document.getElementById(inputId).value;
+      const resultElement = document.getElementById(result);
+      
+      if (inputNumber === '' || isNaN(inputNumber)) {
+          resultElement.textContent = 'Molimo unesite validan broj.';
+          return;
+      }
+      
+      const area = Math.round(inputNumber * multiplier);
+      resultElement.textContent = `Potrebno je ukupno ${area} kg ${displayText}.`;
+  }
+    </script>
 </body>
 
 </html>

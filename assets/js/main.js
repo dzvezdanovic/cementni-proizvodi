@@ -191,4 +191,19 @@
   }
   window.addEventListener('load', initClientsSwiper);
 
+  
+  function calculateArea(multiplier, displayText, inputId, result) {
+    const inputNumber = document.getElementById(inputId).value;
+    const resultElement = document.getElementById(result);
+    
+    if (inputNumber === '' || isNaN(inputNumber)) {
+        resultElement.textContent = 'Molimo unesite validan broj.';
+        return;
+    }
+    
+    const area = Math.round(inputNumber * multiplier);
+    resultElement.textContent = `Potrebno je ukupno ${area} kg ${displayText}.`;
+}
+ 
+
 })()
