@@ -632,7 +632,7 @@
         return;
     }
     
-    const area = inputNumber * multiplier;
+    const area = Math.round(inputNumber * multiplier);
     resultElement.textContent = `Potrebno je ukupno ${area} kg ${displayText}.`;
 }
   </script>
