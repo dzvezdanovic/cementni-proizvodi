@@ -2184,6 +2184,12 @@ section {
   color: #a2cce3;
 }
 
+.modal-header .close {
+	padding: 0px !important;
+	padding-right: 20px !important;
+	margin-top: 0px !important;
+}
+
 .bavalit-calculator {
     background-color: white;
     padding: 20px;
