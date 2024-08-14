@@ -1,6 +1,0 @@
-TO DO
-
-- logo na hover
-- email implementacija
-- dodati slike u opis prooizvoda
-- responsive
