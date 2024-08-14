@@ -144,7 +144,7 @@ h6,
   color: #a2cce3;
 }
 .dropdown-menu {
-  max-height: 500px;
+  max-height: 700px;
   overflow-y: auto;
 }
 
@@ -720,7 +720,8 @@ section {
 .product-content {
 	text-align: justify;
 	overflow-y: auto;
-	max-height: 500px;
+	max-height: 800px;
+	width: 600px !important;
 }
 
 .why-us .container {
