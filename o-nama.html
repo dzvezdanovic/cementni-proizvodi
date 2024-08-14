@@ -348,53 +348,55 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<!-- Bavalit -->
-<div class="modal fade" id="bavalitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content product-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Bavalit</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-    <p> Dekorativni plastificirani malter (jednokomponentni i dvokomponentni) na bazi hidrauličnih veziva, mineralnih agregata i aditiva. </p>
-    <h6> UPOTREBA </h6>
-    <p>	Završna obrada fasadnih zidova.
-      Završni sloj kod politerm sistema toplotne zaštite fasade.
-      Dekorativna obrada unutrašnjih površina objekata.
-    </p>
-    <h6>	PRIPREMA (jednokomponentni) </h6>
-    <p>	U odgovarajućoj posudi meša se 5 minuta 30 kilograma BAVALITA sa 7-8 litara vode, električnom bušilicom jače snage sa mikser dodatkom. 
-    Masa se ostavi da bubri oko 10 minuta. Pred nanošenje se promeša još jednom i nakon toga je spremna za upotrebu. </p>
-    <h6>	POTROŠNJA (jednokomponentni) </h6>
-    <p>	3 kg/m&sup2 </p>
-    <div class="bavalit-calculator">
-      <p>Unesite željenu površinu:</p>
-      <input type="number" id="inputNumber1" placeholder="Unesite broj">
-      <button onclick="calculateArea(3, 'jednokomponentnog bavalita', 'inputNumber1', 'result1')">Izračunaj</button>
-      <p id="result1"></p>
-    </div>
-    <h6>	PRIPREMA (dvokomponentni) </h6>
-    <p>	U odgovarajućoj posudi meša se 5 minuta 40 kilograma BAVALITA sa 5 litara AKRILNE EMULZIJE, električnom bušilicom jače snage sa mikser dodatkom. 
-    Masa se ostavi da bubri oko 10 minuta. Pred nanošenje se promeša još jednom i nakon toga je spremna za upotrebu. </p>
-    <h6>	POTROŠNJA (dvokomponentni) </h6>
-    <p>	4 kg/m&sup2 </p>
-    <div class="bavalit-calculator">
-      <p>Unesite željenu površinu:</p>
-      <input type="number" id="inputNumber2" placeholder="Unesite broj">
-      <button onclick="calculateArea(4, 'dvokomponentnog bavalita', 'inputNumber2', 'result2')">Izračunaj</button>
-      <p id="result2"></p>
-    </div>
-    <h6>	ROK UPOTREBE </h6>
-    <p>	12 meseci </p>
-    <h6>	RADNA TEMPERATURA PODLOGE </h6>
-    <p> Od 5&degC do 30&degC </p>
+ <!-- Bavalit -->
+  <div class="modal fade" id="bavalitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content product-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bavalit</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+			<p> Dekorativni plastificirani malter (jednokomponentni i dvokomponentni) na bazi hidrauličnih veziva, mineralnih agregata i aditiva. </p>
+			<h5> Jednokomponentni bavalit </h5> <br>
+			<h6> UPOTREBA </h6>
+			<p>	Završna obrada fasadnih zidova.
+				Završni sloj kod politerm sistema toplotne zaštite fasade.
+				Dekorativna obrada unutrašnjih površina objekata.
+			</p>
+			<h6>	PRIPREMA (jednokomponentni) </h6>
+			<p>	U odgovarajućoj posudi meša se 5 minuta 30 kilograma BAVALITA sa 7-8 litara vode, električnom bušilicom jače snage sa mikser dodatkom. 
+			Masa se ostavi da bubri oko 10 minuta. Pred nanošenje se promeša još jednom i nakon toga je spremna za upotrebu. </p>
+			<h6>	POTROŠNJA (jednokomponentni) </h6>
+			<p>	3 kg/m&sup2 </p>
+			<div class="bavalit-calculator">
+				<p>Unesite željenu površinu:</p>
+				<input type="number" id="inputNumber1" placeholder="Unesite broj">
+				<button onclick="calculateArea(3, 'jednokomponentnog bavalita', 'inputNumber1', 'result1')">Izračunaj</button>
+				<p id="result1"></p>
+			</div> <hr>
+			<h5> Dvokomponentni bavalit </h5> <br>
+			<h6>	PRIPREMA (dvokomponentni) </h6>
+			<p>	U odgovarajućoj posudi meša se 5 minuta 40 kilograma BAVALITA sa 5 litara AKRILNE EMULZIJE, električnom bušilicom jače snage sa mikser dodatkom. 
+			Masa se ostavi da bubri oko 10 minuta. Pred nanošenje se promeša još jednom i nakon toga je spremna za upotrebu. </p>
+			<h6>	POTROŠNJA (dvokomponentni) </h6>
+			<p>	4 kg/m&sup2 </p>
+			<div class="bavalit-calculator">
+				<p>Unesite željenu površinu:</p>
+				<input type="number" id="inputNumber2" placeholder="Unesite broj">
+				<button onclick="calculateArea(4, 'dvokomponentnog bavalita', 'inputNumber2', 'result2')">Izračunaj</button>
+				<p id="result2"></p>
+			</div> <br>
+			<h6>	ROK UPOTREBE </h6>
+			<p>	12 meseci </p>
+			<h6>	RADNA TEMPERATURA PODLOGE </h6>
+			<p> Od 5&degC do 30&degC </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
 <!-- Akrilplast -->
 <div class="modal fade" id="akrilplastModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
