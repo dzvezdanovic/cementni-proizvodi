@@ -1,0 +1,9 @@
+TO DO
+
+- opis svih produkata da se proveri
+- x nije u ravni sa naslovom
+- logo na zum
+- email implementacija
+- bavalit opis da se izmeni
+- aktivni tabovi
+- naglasiti kalkulator
