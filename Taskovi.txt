@@ -5,3 +5,4 @@ TO DO
 - aktivni tabovi
 - dodati slike u opis prooizvoda
 - responsive
+- o nama stranica - poravnjanje slike
