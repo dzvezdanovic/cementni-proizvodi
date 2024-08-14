@@ -6,3 +6,5 @@ TO DO
 - email implementacija
 - aktivni tabovi
 - naglasiti kalkulator
+- dodati slike u opis prooizvoda
+- responsive
