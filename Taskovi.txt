@@ -1,6 +1,5 @@
 TO DO
 
-- x nije u ravni sa naslovom
 - logo na zum
 - email implementacija
 - aktivni tabovi
