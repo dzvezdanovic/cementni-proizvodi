@@ -94,6 +94,11 @@ h6,
   max-height: 100px;
 }
 
+#header .logo img:hover {
+  width: 285px;
+}
+
+
 #main {
   margin-top: 80px;
 }
