@@ -2282,3 +2282,11 @@ button:hover {
     font-size: 1.2em;
     color: #333;
 }
+.img-fluid {
+	padding-top: 70px;
+	padding-right: 20px;
+}
+
+.o-nama-second-block {
+	padding: 20px !important;
+}
