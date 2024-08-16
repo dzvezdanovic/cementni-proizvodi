@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Sertifikati</title>
+  <title>Početna</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,18 +27,22 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <header id="header" class="fixed-top d-flex align-items-center">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex justify-content-between align-items-center">
+
       <div class="logo">
         <h1 class="text-light"><a href="pocetna.html"><span><img src= "./assets/images/logoBGR.png"></span></a></h1>
       </div>
+
       <nav id="navbar" class="navbar">
         <ul>
-	  <li><a href="pocetna.html">Početna</a></li>
+	  <li><a class="active" href="index.html">Početna</a></li>
           <li><a href="o-nama.html">O nama</a></li>
           <li class="dropdown"><a href="#"><span>Naši proizvodi</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="dropdown-menu">
@@ -61,193 +65,109 @@
             </ul>
           </li>
 		  <li><a href="galerija.html">Galerija</a></li>
-		  <li><a class="active" href="sertifikati.html">Sertifikati</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
- 
+
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-cntent-center align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Delatnosti preduzeća</h2>
+          <p class="animate__animated animate__fadeInUp">CEMENTNI PROIZVODI - Proizvodnja - Građevinarstvo</p>
+		  <ul class="home-carousel-list">
+			<li>Građevinski fasadni praškasti i pastozni materijali</li>
+		  </ul>
+          <a href="o-nama.html" class="btn-get-started animate__animated animate__fadeInUp">Pročitaj više</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+		<h2 class="animate__animated animate__fadeInDown">Delatnosti preduzeća</h2>
+          <p class="animate__animated animate__fadeInUp">CEMENTNI PROIZVODI - Građevinarstvo</p>
+		  <ul class="home-carousel-list">
+			<li>Transport sopstvenih proizvoda</li>
+		  </ul>
+         <a href="o-nama.html" class="btn-get-started animate__animated animate__fadeInUp">Pročitaj više</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+        <h2 class="animate__animated animate__fadeInDown">Delatnosti preduzeća</h2>
+          <p class="animate__animated animate__fadeInUp">CEMENTNI PROIZVODI - Trgovina</p>
+		  <p class="animate__animated animate__fadeInUp">Prodaja sopstvenih proizvoda na veliko</p>
+		  <a href="o-nama.html" class="btn-get-started animate__animated animate__fadeInUp">Pročitaj više</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
   <main id="main">
 
-    <!-- ======= About Us Section ======= -->
-    <section class="breadcrumbs">
+    <!-- ======= Services Section ======= -->
+    <section class="services">
       <div class="container">
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Sertifikati</h2>
-          <ol>
-            <li><a href="pocetna.html">Početna</a></li>
-            <li>Sertifikati</li>
-          </ol>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="icon-box icon-box-pink">
+              <div class="icon"><img src="assets/images/dekorit.jpg"/></div>
+              <h4 class="title"><a href="">Akrilplast</a></h4>
+              <p class="description">Plastični malter za dekorativnu obradu fasadnih i unutrašnjih zidova</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box icon-box-cyan">
+               <div class="icon"><img src="assets/images/dekorit.jpg"/></div>
+              <h4 class="title"><a href="">Bavalit</a></h4>
+              <p class="description">Dekorativni plastificirani malter jednokomponentni i dvokomponentni, na bazi hidrauličnih veziva, mineralnih agregata i aditiva.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-green">
+              <div class="icon"><img src="assets/images/dekorit.jpg"/></div>
+              <h4 class="title"><a href="">Dekorit</a></h4>
+              <p class="description">Dekorativni plastificirani malter, na bazi hidrauličnih veziva, mermernog agregata i aditiva.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box icon-box-blue">
+               <div class="icon"><img src="assets/images/dekorit.jpg"/></div>
+              <h4 class="title"><a href="">Mermerplast</a></h4>
+              <p class="description">Plastični malter za dekorativnu obradu fasadnih i unutrašnjih zidova</p>
+            </div>
+          </div>
+
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End Services Section -->
 
-   
-    <section class="about" data-aos="fade-up">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 offset-lg-1">
-            <img src="assets/images/ISO_14001_1996.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 offset-lg-1 pt-4 pt-lg-0">
-            <h3>DRUŠTVO ZA SERTIFIKACIJU I NADZOR SISTEMA KVALITETA d.o.o. <br/>
-				ORGANIZATION FOR QUALITY SYSTEMS CERTIFICATION</h3>
-            <p class="fst-italic">
-              ISO 14001:1996
-            </p>
-            <p class="certificate-description">
-                Trg Republike 3/1, Belgrade, Serbia & Montenegro
-				on the basic of the environmental management system audit report no. I-536/04
-				issues the CERTIFICATE Reg. no. 0243 by which it is certified that the environmental management system
-				established and applied by Cementni Proizvodi Vlasotince Industrijska zona b.b.
-				is in compliance with the international standard ISO 14001:1996 and it refers to the whole enterprise 
-				Field of activity production of powdery and paste materials and concrete prefabricated products. <br/>
-				
-				Belgrade 5. July, 2004, President of certification committee Antonije Laketić </br>
-				This certificate is valid until 4. July, 2007, Manager of YUQS-a Sofia Djurdjević
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-	<hr>
-	<section class="about" data-aos="fade-up">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 offset-lg-1">
-            <img src="assets/images/JUS_ISO_14001_1997.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 offset-lg-1 pt-4 pt-lg-0">
-            <h3>DRUŠTVO ZA SERTIFIKACIJU I NADZOR SISTEMA KVALITETA d.o.o. <br/>
-				ORGANIZATION FOR QUALITY SYSTEMS CERTIFICATION</h3>
-            <p class="fst-italic">
-              JUS ISO 14001:1997
-            </p>
-            <p class="certificate-description">
-                Trg Republike 3/1, Beograd, Srbija i Crna Gora
-				na osnovu izveštaja o ocenjivanju
-				sistema upravljanja zaštitom životne sredine broj I-536/04
-				izdaje
-				SERTIFIKAT
-				Reg. br. 0243
-				kojim se potvrđuje da je sistem upravljanja zaštitom životne sredine
-				koji je uspostavilo i primenjuje
-				Cementni Proizvodi
-				Vlasotince
-				Industrijska zona b.b.
-				u saglasnosti sa međunarodnim standardom
-				JUS ISO 14001:1997
-				i odnosi se na celu organizaciju
-				Delokrug rada
-				proizvodnja praškastih i pastoznih materijala
-				i betonskih prefabrikata. </br>
-				
-				Beograd
-				05. 07. 2004. godine
-				Predsednik sertifikacione komisije
-				Antonije Laketić </br>
-				Ovaj sertifikat važi do
-				04. 07. 2007. godine
-				Direktor JUQS-a
-				Sofija Đurđević
-			</p>
-          </div>
-        </div>
-      </div>
-    </section>
-	<hr>
-	<section class="about" data-aos="fade-up">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 offset-lg-1">
-            <img src="assets/images/ISO_9001_2000.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 offset-lg-1 pt-4 pt-lg-0">
-            <h3>DRUŠTVO ZA SERTIFIKACIJU I NADZOR SISTEMA KVALITETA d.o.o. <br/>
-				ORGANIZATION FOR QUALITY SYSTEMS CERTIFICATION</h3>
-            <p class="fst-italic">
-             ISO 9001:2000
-            </p>
-            <p class="certificate-description">
-                Trg Republike 3/1, Belgrade, FR Yugoslavia
-				on the basic of the quality management system audit report
-				no. I-370/02
-				issues the
-				CERTIFICATE
-				Reg. no. 0146 – IR
-				by which it is certified that the quality management system
-				established and applied by
-				Cementni Proizvodi
-				Vlasotince
-				Industrijska zona b.b.
-				is in compliance with the international standard for
-				quality management systems
-				ISO 9001:2000
-				and concrete prefabricated products </br>			
-				Belgrade
-				27. December, 2002
-				President of certification committee
-				Antonije Laketić </br>
-				This certificate is valid until
-				26. December, 2005
-				Manager of YUQS
-				Sofia Djurdjević </br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-	<hr>
-	<section class="about" data-aos="fade-up">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 offset-lg-1">
-            <img src="assets/images/JUS_ISO_9002.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 offset-lg-1 pt-4 pt-lg-0">
-            <h3>DRUŠTVO ZA SERTIFIKACIJU I NADZOR SISTEMA KVALITETA d.o.o. <br/>
-				ASSOCIATION FOR QUALITY SYSTEMS MANAGEMENT</h3>
-            <p class="fst-italic">
-              JUS ISO 9002
-            </p>
-            <p class="certificate-description">
-                Trg Republike 3/1, Beograd, SR Jugoslavija
-				na osnovu izveštaja o ocenjivanju sistema kvaliteta broj I-088/99
-				izdaje
-				SERTIFIKAT
-				Reg. br. 0028
-				kojim se potvrđuje da je sistem kvaliteta koji je uspostavilo i primenjuje
-				Cementni Proizvodi
-				Vlasotince
-				Industrijska zona b.b.
-				u saglasnosti sa međunarodnim standardom za obezbeđenje kvaliteta
-				JUS ISO 9002
-				i odnosi se na
-				celo preduzeće
-				Delokrug rada
-				proizvodnja praškastih i pastoznih materijala
-				i betonskih prefabrikata </br>
-				Beograd
-				27. 12. 1999.
-				Predsednik sertifikacione komisije
-				Antonije Laketić </br>
-				Ovaj sertifikat važi do
-				26. 12. 2002.
-				Direktor JUQS-a
-				Sofija Đurđević
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
   </main><!-- End #main -->
 
- 
 <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
     <div class="footer-top">
       <div class="container">
@@ -258,7 +178,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="pocetna.html">Početna</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="o-nama.html">O nama</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="galerija.html">Galerija</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="sertifikati.html">Sertifikati</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="kontakt.html">Kontakt</a></li>
             </ul>
           </div>
@@ -282,8 +201,8 @@
               <strong>Telefon/Fax:</strong><br>
 			  +381(0)16/875-484<br>
 			  +381(0)16/875-100<br>
-			  +381(0)16/875-928<br>
-              <strong>Email:</strong> cementni@ptt.rs<br>
+			  +381(0)16/875-928<br><br>
+              <strong>Email:</strong><br>cementni@ptt.rs<br>
             </p>
           </div>
           <div class="col-lg-3 col-md-6 footer-info">
@@ -309,7 +228,7 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+  
   <!-- Bavalit -->
   <div class="modal fade" id="bavalitModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -336,9 +255,9 @@
 			<h5>Kalkulator potrebnog materijala</h5>
 			<div class="bavalit-calculator">
 				<p>Unesite željenu površinu:</p>
-				<input type="number" id="bavalit14Number1" placeholder="Unesite broj">
-				<button onclick="calculateArea(3, 'jednokomponentnog bavalita', 'bavalit14Number1', 'bavalit14')">Izračunaj</button>
-				<p id="bavalit14"></p>
+				<input type="number" id="bavalitNumber1" placeholder="Unesite broj">
+				<button onclick="calculateArea(3, 'jednokomponentnog bavalita', 'bavalitNumber1', 'bavalit1')">Izračunaj</button>
+				<p id="bavalit1"></p>
 			</div> <hr>
 			<h5> Dvokomponentni bavalit </h5> <br>
 			<h6>	PRIPREMA (dvokomponentni) </h6>
@@ -349,9 +268,9 @@
 			<h5>Kalkulator potrebnog materijala</h5>
 			<div class="bavalit-calculator">
 				<p>Unesite željenu površinu:</p>
-				<input type="number" id="bavalit24Number2" placeholder="Unesite broj">
-				<button onclick="calculateArea(4, 'dvokomponentnog bavalita', 'bavalit24Number2', 'bavalit24')">Izračunaj</button>
-				<p id="bavalit24"></p>
+				<input type="number" id="bavalitNumber2" placeholder="Unesite broj">
+				<button onclick="calculateArea(4, 'dvokomponentnog bavalita', 'bavalitNumber2', 'bavalit2')">Izračunaj</button>
+				<p id="bavalit2"></p>
 			</div> <br>
 			<h6>	ROK UPOTREBE </h6>
 			<p>	12 meseci </p>
@@ -384,9 +303,9 @@
 		<h5>Kalkulator potrebnog materijala</h5>
 		<div class="akrilplast-calculator">
 		  <p>Unesite željenu površinu:</p>
-		  <input type="number" id="akrilplast4Number1" placeholder="Unesite broj">
-		  <button onclick="calculateArea(3, 'akrilplasta', 'akrilplast4Number1', 'akrilplast4')">Izračunaj</button>
-		  <p id="akrilplast4"></p>
+		  <input type="number" id="akrilplastNumber1" placeholder="Unesite broj">
+		  <button onclick="calculateArea(3, 'akrilplasta', 'akrilplastNumber1', 'akrilplast')">Izračunaj</button>
+		  <p id="akrilplast"></p>
 		</div><br>
 		<h6>	ROK UPOTREBE </h6>
 		<p>	AKRILPLAST se skladišti u suvim prostorijama na temperaturi iznad 0&degC, ne duže od jedne godine. </p>
@@ -440,9 +359,9 @@
 		<h5>Kalkulator potrebnog materijala</h5>
 		<div class="valit-calculator">
 		  <p>Unesite željenu površinu:</p>
-		  <input type="number" id="valit4Number1" placeholder="Unesite broj">
-		  <button onclick="calculateArea(2.5, 'valita', 'valit4Number1', 'valit4')">Izračunaj</button>
-		  <p id="valit4"></p>
+		  <input type="number" id="valitNumber1" placeholder="Unesite broj">
+		  <button onclick="calculateArea(2.5, 'valita', 'valitNumber1', 'valit')">Izračunaj</button>
+		  <p id="valit"></p>
 		</div><br>
 		<h6>	ROK UPOTREBE</h6>
 		<p>	6 meseci </p>
@@ -476,9 +395,9 @@
 			<h5>Kalkulator potrebnog materijala</h5>
 			<div class="poliglet-calculator">
 				<p>Unesite željenu površinu:</p>
-				<input type="number" id="poliglet4Number1" placeholder="Unesite broj">
-				<button onclick="calculateArea(1.5, 'poligleta', 'poliglet4Number1', 'poliglet4')">Izračunaj</button>
-				<p id="poliglet4"></p>
+				<input type="number" id="poligletNumber1" placeholder="Unesite broj">
+				<button onclick="calculateArea(1.5, 'poligleta', 'poligletNumber1', 'poliglet')">Izračunaj</button>
+				<p id="poliglet"></p>
 			</div><br>
         </div>
       </div>
@@ -509,9 +428,9 @@
 		<h5>Kalkulator potrebnog materijala</h5>
 		<div class="hirofa-calculator">
 		  <p>Unesite željenu površinu:</p>
-		  <input type="number" id="hirofa4Number1" placeholder="Unesite broj">
-		  <button onclick="calculateArea(3.5, 'hirofe', 'hirofa4Number1', 'hirofa4')">Izračunaj</button>
-		  <p id="hirofa4"></p>
+		  <input type="number" id="hirofaNumber1" placeholder="Unesite broj">
+		  <button onclick="calculateArea(3.5, 'hirofe', 'hirofaNumber1', 'hirofa')">Izračunaj</button>
+		  <p id="hirofa"></p>
 		</div><br>
         </div>
       </div>
@@ -539,9 +458,9 @@
 		<h5>Kalkulator potrebnog materijala</h5>
 		<div class="dekorit-calculator">
 		  <p>Unesite željenu površinu:</p>
-		  <input type="number" id="dekorit4Number1" placeholder="Unesite broj">
-		  <button onclick="calculateArea(2.5, 'dekorita', 'dekorit4Number1', 'dekorit4')">Izračunaj</button>
-		  <p id="dekorit4"></p>
+		  <input type="number" id="dekoritNumber1" placeholder="Unesite broj">
+		  <button onclick="calculateArea(2.5, 'dekorita', 'dekoritNumber1', 'dekorit')">Izračunaj</button>
+		  <p id="dekorit"></p>
 		</div><br>
 		<h6>ROK UPOTREBE</h6>
 		<p>12 meseci </p>
@@ -615,9 +534,9 @@
 		<h5>Kalkulator potrebnog materijala</h5>
 		<div class="lepak-calculator">
 		  <p>Unesite željenu površinu:</p>
-		  <input type="number" id="lepak4Number1" placeholder="Unesite broj">
-		  <button onclick="calculateArea(2.5, 'lepka za keramiku', 'lepak4Number1', 'lepak4')">Izračunaj</button>
-		  <p id="lepak4"></p>
+		  <input type="number" id="lepakNumber1" placeholder="Unesite broj">
+		  <button onclick="calculateArea(2.5, 'lepka za keramiku', 'lepakNumber1', 'lepak')">Izračunaj</button>
+		  <p id="lepak"></p>
 		</div><br>
         </div>
       </div>
@@ -660,9 +579,9 @@
 		<h5>Kalkulator potrebnog materijala</h5>
 		<div class="mermerplast-calculator">
 		  <p>Unesite željenu površinu:</p>
-		  <input type="number" id="mermerplast4Number1" placeholder="Unesite broj">
-		  <button onclick="calculateArea(4, 'mermerplasta', 'mermerplast4Number1', 'mermerplast4')">Izračunaj</button>
-		  <p id="mermerplast4"></p>
+		  <input type="number" id="mermerplastNumber1" placeholder="Unesite broj">
+		  <button onclick="calculateArea(4, 'mermerplasta', 'mermerplastNumber1', 'mermerplast')">Izračunaj</button>
+		  <p id="mermerplast"></p>
 		</div><br>
 		<h6>ROK UPOTREBE</h6>
 		<p>	12 meseci. Čuvati od smrzavanja.</p>
@@ -746,25 +665,24 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <!-- Template Main JS File -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script>
-    function calculateArea(multiplier, displayText, inputId, result) {
-      const inputNumber = document.getElementById(inputId).value;
-      const resultElement = document.getElementById(result);
-      
-      if (inputNumber === '' || isNaN(inputNumber)) {
-          resultElement.textContent = 'Molimo unesite validan broj.';
-          return;
-      }
-      
-      const area = Math.round(inputNumber * multiplier);
-      resultElement.textContent = `Potrebno je ukupno ${area} kg ${displayText}.`;
-  }
-    </script>
+  function calculateArea(multiplier, displayText, inputId, result) {
+    const inputNumber = document.getElementById(inputId).value;
+    const resultElement = document.getElementById(result);
+    
+    if (inputNumber === '' || isNaN(inputNumber)) {
+        resultElement.textContent = 'Molimo unesite validan broj.';
+        return;
+    }
+    
+    const area = Math.round(inputNumber * multiplier);
+    resultElement.textContent = `Potrebno je ukupno ${area} kg ${displayText}.`;
+}
+  </script>
+  
 </body>
 
 </html>
