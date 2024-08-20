@@ -245,10 +245,11 @@ h6,
   overflow: hidden;
   top: 0;
   right: 0;
-  left: 100px;
+  left: 130px;
   bottom: 0;
   background: rgba(17, 38, 48, 0.9);
   transition: 0.3s;
+  max-width: 70%;
 }
 
 .navbar-mobile .mobile-nav-toggle {
