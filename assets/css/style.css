@@ -151,6 +151,10 @@ h6,
   cursor: grab;
 }
 
+.navbar-toggler:hover {
+	background-color: transparent !important;
+}
+
 #heroCarousel {
 	margin-top: 120px;
 }
