@@ -66,12 +66,12 @@ h6,
 }
 
 #header.header-scrolled {
-  background: rgba(161, 137, 71, 0.8);
+  background: rgba(161, 137, 71);
   height: 70px;
 }
 
 #header.header-scrolled .navbar ul{
- background-color: transparent !important;
+  background: rgba(161, 137, 71);
 }
 
 #header .logo h1 {
