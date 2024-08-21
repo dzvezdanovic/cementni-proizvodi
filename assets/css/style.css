@@ -70,6 +70,10 @@ h6,
   height: 70px;
 }
 
+#header.header-scrolled .navbar ul{
+ background-color: transparent !important;
+}
+
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
