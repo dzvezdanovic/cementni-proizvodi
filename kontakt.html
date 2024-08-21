@@ -32,43 +32,61 @@
 
 <body>
 
-  <header id="header" class="fixed-top d-flex align-items-center">
+<header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
       <div class="logo">
         <h1 class="text-light"><a href="index.html"><span><img src= "./assets/images/logoBGR.png"></span></a></h1>
       </div>
-      <nav id="navbar" class="navbar">
-        <ul>
-	  <li><a href="index.html">Početna</a></li>
-          <li><a href="o-nama.html">O nama</a></li>
-          <li class="dropdown"><a href="#"><span>Naši proizvodi</span> <i class="bi bi-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a data-toggle="modal" data-target="#bavalitModal">Bavalit</a></li>
-              <li><a data-toggle="modal" data-target="#akrilnaEmulzijaModal">Akrilna emulzija</a></li>
-              <li><a data-toggle="modal" data-target="#valitModal">Valit</a></li>
-              <li><a data-toggle="modal" data-target="#poligletModal">Poliglet</a></li>
-	          <li><a data-toggle="modal" data-target="#hirofaModal">Hirofa</a></li>
-              <li><a data-toggle="modal" data-target="#dekoritModal">Dekorit</a></li>
-              <li><a data-toggle="modal" data-target="#poliglet-sModal">Poliglet-s</a></li>
-              <li><a data-toggle="modal" data-target="#akrilkolorModal">Akrilkolor</a></li>
-	          <li><a data-toggle="modal" data-target="#politermLepakModal">Politerm lepak</a></li>
-              <li><a data-toggle="modal" data-target="#lepakZaKeramikuModal">Lepak za keramiku</a></li>
-              <li><a data-toggle="modal" data-target="#teranovaModal">Teranova</a></li>
-              <li><a data-toggle="modal" data-target="#mermerplastModal">Mermerplast</a></li>
-	          <li><a data-toggle="modal" data-target="#akrilplastModal">Akrilplast</a></li>
-              <li><a data-toggle="modal" data-target="#silikatplastModal">Silikatplast</a></li>
-              <li><a data-toggle="modal" data-target="#akrilnaPodlogaModal">Akrilna podloga</a></li>
-              <li><a data-toggle="modal" data-target="#bojaBelaModal">Boja bela</a></li>
-            </ul>
-          </li>
-		  <li><a href="galerija.html">Galerija</a></li>
-          <li><a class="active" href="kontakt.html">Kontakt</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="o-nama.html">O nama</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Naši proizvodi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" data-toggle="modal" data-target="#bavalitModal">Bavalit</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#akrilnaEmulzijaModal">Akrilna emulzija</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#valitModal">Valit</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#poligletModal">Poliglet</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#hirofaModal">Hirofa</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#dekoritModal">Dekorit</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#poliglet-sModal">Poliglet-s</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#akrilkolorModal">Akrilkolor</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#politermLepakModal">Politerm lepak</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#lepakZaKeramikuModal">Lepak za keramiku</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#teranovaModal">Teranova</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#mermerplastModal">Mermerplast</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#akrilplastModal">Akrilplast</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#silikatplastModal">Silikatplast</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#akrilnaPodlogaModal">Akrilna podloga</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#bojaBelaModal">Boja bela</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerija.html">Galerija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav><!-- .navbar -->
  
     </div>
   </header><!-- End Header -->
+
   
   <main id="main">
 
