@@ -163,7 +163,7 @@
                 <div class="loading">Obrada</div>
                 <div class="sent-message">Vaša poruka je uspešno poslata.</div>
               </div>
-              <div class="text-center"><button type="submit" button onclick="sendEmail()">Pošalji Email</button></div>
+              <div class="text-center"><button type="submit" button onclick="event.preventDefault(); sendEmail();">Pošalji Email</button></div>
             </form>
             
           </div>
@@ -184,8 +184,9 @@
             let re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return re.test(email);
         }
-
+        
         function sendEmail() {
+
           let name = document.getElementById('name').value.trim();
           let email = document.getElementById('email').value.trim();
           let subject = document.getElementById('subject').value.trim();
@@ -226,6 +227,7 @@
                 document.getElementById('email').value = "";
                 document.getElementById('subject').value = "";
                 document.getElementById('message').value = "";
+
             }, function(error) {
                 console.log('FAILED...', error);
                 statusMsg.innerHTML = "Došlo je do greške. Pokušajte ponovo.";
