@@ -144,7 +144,7 @@
 
           <div class="col-lg-6">
             <p id="status-message"></p>
-            <form class="php-email-form" id="contact-form" >
+            <form class="php-email-form" id="contact-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Ime i prezime" required>
@@ -159,17 +159,11 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" id="message" rows="5" placeholder="Poruka" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Obrada</div>
-                <div class="sent-message">Vaša poruka je uspešno poslata.</div>
-              </div>
+              
               <div class="text-center"><button type="submit" button onclick="event.preventDefault(); sendEmail();">Pošalji Email</button></div>
             </form>
-            
           </div>
-
         </div>
-
       </div>
 	  
 	<script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
@@ -180,12 +174,21 @@
 			emailjs.init("Lea5OyTA16z_dPmT8");
 		};
 
+    function resetForm() {
+      document.getElementById('name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('subject').value = '';
+      document.getElementById('message').value = '';
+      document.getElementById('status-message').value = '';
+    }
+
     function validateEmail(email) {
             let re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return re.test(email);
         }
         
         function sendEmail() {
+          document.getElementById('status-message').innerHTML = '';
 
           let name = document.getElementById('name').value.trim();
           let email = document.getElementById('email').value.trim();
@@ -217,16 +220,10 @@
                 subject: subject,
                 message: message
             }).then(function(response) {
+                document.getElementById('status-message').innerHTML = 'Poruka je uspešno poslata!';
+                document.getElementById('status-message').color = "green";
+                resetForm();  // Resetovanje forme
                 console.log('SUCCESS!', response.status, response.text);
-
-                statusMsg.innerHTML = "Poruka je uspešno poslata!";
-                statusMsg.style.color = "green";
-
-                // Resetovanje polja
-                document.getElementById('name').value = "";
-                document.getElementById('email').value = "";
-                document.getElementById('subject').value = "";
-                document.getElementById('message').value = "";
 
             }, function(error) {
                 console.log('FAILED...', error);
